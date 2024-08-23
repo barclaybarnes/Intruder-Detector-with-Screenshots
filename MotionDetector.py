@@ -7,7 +7,8 @@ import pandas, cv2, time, os
 # importing datetime class from datetime library 
 from datetime import datetime 
 
-directory = r'C:\Users\inter\Suspect_Images'\
+# Directory Change in an attempt to reroute massive numbers of images to their own folder.
+directory = r'C:\Users\"username"\Suspect_Images'\
 
 os.chdir(directory)
 
